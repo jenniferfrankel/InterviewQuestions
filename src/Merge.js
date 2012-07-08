@@ -23,6 +23,10 @@ var merge = function (a, b) {
 	return merged;
 };
 
+/**
+ * Sorts an array by using merge sort
+ * @param a an array to sort.
+ */
 var mergesort = function (a){
 	var a1, a2, midpoint;
 
